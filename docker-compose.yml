@@ -8,7 +8,7 @@ services:
     environment:
       TUNNEL_TOKEN: ${CLOUDFLARED_TOKEN}
   cms:
-    image: sakharovde/sakharov.de-cms:v0.0.4
+    image: sakharovde/sakharov.de-cms:v0.0.5
     platform: linux/amd64
     environment:
       DATABASE_CLIENT: ${CMS_DATABASE_CLIENT}
